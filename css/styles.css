@@ -1,0 +1,23 @@
+body > div {
+    display: flex;
+    align-items: center;
+}
+
+
+p {
+    padding: 20px;
+}
+
+body > div > p:nth-child(1){
+    width: 20px;
+
+}
+body > div > p:nth-child(3){
+    width: 15%;
+
+}
+
+button {
+    height: 26px;
+}
+
