@@ -1,10 +1,43 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:blanchedalmond;
+}
+
+div{
+    margin: 6px;
+    border-radius: 10px;
+}
+
 body > div {
     display: flex;
     align-items: center;
+    width: 75vw;
+    justify-content: center;
+
+}
+
+body > input {
+    width: 25%;
+    margin: 20px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
 }
 
 
 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
     padding: 20px;
 }
 
@@ -13,11 +46,23 @@ body > div > p:nth-child(1){
 
 }
 body > div > p:nth-child(3){
-    width: 15%;
+    width: 30%;
 
 }
 
 button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
     height: 26px;
 }
 
+body > div > button:nth-child(4) {
+    justify-content: center;
+    
+}
+
+.strike {
+    text-decoration: line-through;
+  }
+
+  
